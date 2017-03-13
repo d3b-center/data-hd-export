@@ -46,15 +46,15 @@ The `tree` will be like:
 │   ├── file3.fq
 │   └── file4.fq
 ├── manifest
-├── output_folder
-│   ├── folder1
-│   │   ├── file1.fq
-│   │   └── file2.fq
-│   ├── folder2
-│   │   ├── file3.fq
-│   │   └── file4.fq
-│   ├── encryption.key
-│   ├── manifest
-│   ├── md5sum.encrypted.txt
-│   └── md5sum.original.txt
+└── output_folder
+    ├── folder1
+    │   ├── file1.fq
+    │   └── file2.fq
+    ├── folder2
+    │   ├── file3.fq
+    │   └── file4.fq
+    ├── encryption.key
+    ├── manifest
+    ├── md5sum.encrypted.txt
+    └── md5sum.original.txt
 ```
