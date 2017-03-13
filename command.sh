@@ -1,9 +1,5 @@
 #!/bin/sh
 
-usages_dec() { 
-	echo "usages: sh $0 $1 <input.manifest> <encryption.key> <path/to/output/dir>"
-}
-
 encryption() {
 	manfiest=$1; outputdir=$2
 	if [[ ! -r $manfiest ]]; then
